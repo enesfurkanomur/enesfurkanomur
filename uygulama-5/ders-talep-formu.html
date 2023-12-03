@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ders Destek Talebi</title>
+  </head>
+  <body>
+    <h1>LÜTFEN FORMU EKSİKSİZ DOLDURUNUZ.</h1>
+    <hr />
+    <p><i>Başlamak bitirmenin yarısıdır unutma ;)</i></p>
+    <h2>KİŞİSEL BİLGİLERİNİZ</h2>
+    <table>
+      <tr>
+        <td style="width: 120px">
+          <label for="name">İsim:</label>
+        </td>
+        <td style="width: 50px"></td>
+        <td>
+          <input type="text" id="name" placeholder="İsminizi Giriniz" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="surname">Soyisim:</label>
+        </td>
+        <td></td>
+        <td>
+          <input type="text" id="surname" placeholder="Soyisminizi Giriniz" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="classroom">Sınıf:</label>
+        </td>
+        <td></td>
+        <td>
+          <input
+            type="text"
+            id="classroom"
+            placeholder="Sınıf Bilginizi Giriniz"
+          />
+        </td>
+      </tr>
+    </table>
+
+    <h2>DERS BİLGİLERİNİZ</h2>
+    <table>
+      <tr>
+        <td style="width: 120px">
+          <label for="lesson">Ders:</label>
+        </td>
+        <td style="width: 50px"></td>
+        <td>
+          <select id="lesson">
+            <option>Seçiniz</option>
+            <option>Matematik</option>
+            <option>Türkçe</option>
+            <option>İngilizce</option>
+            <option>Geometri</option>
+            <option>Kimya</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="score">Son Notunuz:</label>
+        </td>
+        <td style="width: 50px"></td>
+        <td>
+          <input
+            type="text"
+            id="score"
+            placeholder="Son Not Ortalamanızı Giriniz"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="time">Uygun Çalışma Saati:</label>
+        </td>
+        <td></td>
+        <td>
+          <input type="radio" name="time" /> Gündüz
+          <input type="radio" name="time" /> Öğlen
+          <input type="radio" name="time" /> Akşam
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="type">Çalışma Tekniğiniz:</label>
+        </td>
+        <td></td>
+        <td>
+          <input type="checkbox" name="type" /> Yazarak ve Not Tutarak
+          <input type="checkbox" name="type" /> Şekillerle ve Grafiklerle
+          Çalışarak <input type="checkbox" name="type" /> Bol Soru Çözerek
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <button type="submit">Kaydet</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
