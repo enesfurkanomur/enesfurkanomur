@@ -1,0 +1,188 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+.all-card {
+  padding: 100px;
+}
+
+.kart {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: inline-block; /* İnline-block ile birbirine yaslanan blok elemanlar elde edilir */
+  /* margin: 20px; Kartlar arasında boşluk bırakmak için kullanıldı */
+  clear: both;
+  /* float: left; */
+  margin: 0px;
+}
+.side {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: inline-block; /* İnline-block ile birbirine yaslanan blok elemanlar elde edilir */
+  /* margin: 46px; Kartlar arasında boşluk bırakmak için kullanıldı */
+  clear: both;
+  height: 492px;
+  margin: 0px;
+}
+
+.kart img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.icerik {
+  padding: 20px;
+  background-color: rgb(117, 26, 255);
+}
+.icerik2 {
+  padding: 20px;
+  background-color: #fff;
+}
+.soccer-items {
+  display: inline-block;
+  margin: 8px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid;
+  border-color: gray;
+  border-radius: 50%;
+  padding: 43px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.soccer-item1 {
+  text-align: center;
+  font-size: 70px; /* yeni */
+  padding: 0px; /* yeni */
+  color: #fff;
+  display: inline; /* yeni */
+  height: 0px; /* yeni */
+}
+.soccer-item2 {
+  text-align: center;
+  font-size: 14px; /* yeni */
+  padding: 5px;
+  color: #d9d9d9;
+  padding-top: 1px; /* yeni */
+  margin-top: 8px; /* yeni */
+}
+
+h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+p {
+  color: #eeedeb;
+}
+.title {
+  color: #d9d9d9;
+  font-size: 20px;
+}
+.title2 {
+  display: inline-block;
+  padding-right: 147px;
+  font-size: 18px;
+  padding-bottom: 10px;
+  padding-top: 8px;
+}
+.footer1 {
+  font-size: 25px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 17px;
+}
+.footer2 {
+  font-size: 14px;
+  display: inline-block;
+  width: 191px;
+}
+.reactions {
+  background-color: rgb(255, 235, 230);
+  display: block;
+  margin: 5px;
+  border-radius: 10px;
+  margin-bottom: 26px;
+}
+.reaction {
+  display: inline-block;
+  padding-right: 100px;
+  color: red;
+  font-weight: bold;
+  width: 50px;
+}
+.memories {
+  display: block;
+  background-color: rgb(255, 255, 230);
+  margin: 5px;
+  border-radius: 10px;
+  margin-bottom: 26px;
+}
+.memory {
+  display: inline-block;
+  padding-right: 100px;
+  color: yellow;
+  font-weight: bold;
+  width: 50px;
+}
+.verbals {
+  display: block;
+  background-color: rgb(217, 255, 204);
+  margin: 5px;
+  border-radius: 10px;
+  margin-bottom: 26px;
+}
+.verbal {
+  display: inline-block;
+  padding-right: 100px;
+  color: green;
+  font-weight: bold;
+}
+.visuals {
+  display: block;
+  background-color: rgb(194, 240, 240);
+  margin: 5px;
+  border-radius: 10px;
+  margin-bottom: 26px;
+}
+.visual {
+  display: inline-block;
+  padding-right: 100px;
+  color: blue;
+  font-weight: bold;
+}
+.result1 {
+  display: inline-block;
+  color: #4d4d4d;
+  font-weight: bold;
+}
+.result-all {
+  display: inline-block;
+  color: #bfbfbf;
+}
+.continue {
+  display: inline-block;
+  border-radius: 30px;
+  background-color: rgb(0, 0, 102);
+  color: #fff;
+  padding: 15px;
+  margin: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  width: 202px;
+  margin-top: 8px;
+}
+.main1 {
+  padding: 5px;
+  font-size: 14px;
+}
